@@ -1,0 +1,146 @@
+# 🛒 Java E-Commerce Application
+
+## 📌 Project Description
+
+The **Java E-Commerce Application** is a console-based online shopping simulation developed using Java.
+
+It allows users to browse products, add products to a shopping cart, view cart details, calculate total prices, and simulate placing orders.
+
+This project demonstrates fundamental Java programming concepts, Object-Oriented Programming (OOP), and Java Collections.
+
+## 🚀 Features
+
+- View available products
+- Add products to shopping cart
+- Select product quantities
+- Update cart quantities by adding more items
+- View shopping cart
+- Calculate total bill
+- Simulate order checkout
+- Clear cart after checkout
+- Basic input validation
+
+## 🛠️ Technologies Used
+
+- **Programming Language:** Java
+- **IDE:** VS Code / Eclipse / IntelliJ IDEA
+- **JDK:** Java 8 or above
+- **Concepts:** OOP, ArrayList, Scanner, Loops, Conditional Statements
+
+## 📂 Project Structure
+
+```text
+Java-E-Commerce-Application/
+│
+├── README.md
+│
+└── src/
+    └── EcommerceApp.java
+```
+
+## ⚙️ Installation and Setup
+
+### Step 1: Install Java
+
+Install JDK 8 or above.
+
+### Step 2: Clone the Repository
+
+After uploading your project to GitHub, run:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Java-E-Commerce-Application.git
+```
+
+Replace `YOUR_USERNAME` with your GitHub username.
+
+### Step 3: Open the Project
+
+```bash
+cd Java-E-Commerce-Application
+```
+
+### Step 4: Compile the Program
+
+```bash
+javac src/EcommerceApp.java
+```
+
+### Step 5: Run the Program
+
+```bash
+java -cp src EcommerceApp
+```
+
+## 💻 Sample Output
+
+```text
+===== E-COMMERCE APPLICATION =====
+1. View Products
+2. Add to Cart
+3. View Cart
+4. Checkout
+5. Exit
+
+Enter your choice: 1
+
+===== AVAILABLE PRODUCTS =====
+1. Laptop - Rs. 50000.00
+2. Smartphone - Rs. 20000.00
+3. Headphones - Rs. 1500.00
+4. Keyboard - Rs. 800.00
+5. Mouse - Rs. 500.00
+```
+
+## 📊 Product List
+
+| Product ID | Product Name | Price |
+|---|---|---|
+| 1 | Laptop | ₹50,000 |
+| 2 | Smartphone | ₹20,000 |
+| 3 | Headphones | ₹1,500 |
+| 4 | Keyboard | ₹800 |
+| 5 | Mouse | ₹500 |
+
+## 📚 Java Concepts Used
+
+- Classes and objects
+- Constructors
+- ArrayList
+- Scanner class
+- Loops
+- Switch-case statements
+- Conditional statements
+- Methods
+- Object-Oriented Programming
+
+## 🎯 Project Objective
+
+The main objective of this project is to develop a basic E-Commerce Application using Java and understand product management, shopping cart operations, order checkout simulation, and object-oriented programming.
+
+## 🔮 Future Enhancements
+
+- User registration and login
+- Product search
+- Remove items from cart
+- Product inventory management
+- MySQL database integration
+- Order history
+- Graphical User Interface
+- Spring Boot REST API
+- Secure payment gateway integration
+
+## ⚠️ Limitations
+
+- Products are predefined in the Java source code.
+- Cart information is stored in memory.
+- Data is not saved after the application closes.
+- Checkout is simulated; no real payment is processed.
+
+## 📝 Conclusion
+
+The Java E-Commerce Application is a beginner-friendly project that demonstrates basic online shopping functionality using Java. It helps students understand Java Collections, OOP concepts, and menu-driven application development.
+
+## 📄 License
+
+This project is intended for educational purposes.
